@@ -116,11 +116,12 @@ section {
 @media (min-width: 769px) {
   .box {
     height: 500px; }
-    .box #skills .container {
-      -webkit-flex-direction: row;
-      flex-direction: row;
-      justify-content: space-between; }
-    .box #skills .skill-box {
-      margin: 0 10px; } }
+
+  #skills .container {
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    justify-content: space-between; }
+  #skills .skill-box {
+    margin: 0 10px; } }
 
 /*# sourceMappingURL=style.css.map */

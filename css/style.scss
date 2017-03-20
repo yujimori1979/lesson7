@@ -141,18 +141,16 @@ section {
 
 .box {
  height: 500px;
+}
 
 // Skills
   #skills {
     .container {
       @include flex-direction(row);
       justify-content: space-between;
-    }
+     }
     .skill-box {
-      margin: 0 10px;
-    }
+      margin: 0 10px; 
   }
-
-    
 }
 }
